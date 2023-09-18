@@ -1,13 +1,23 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+/* Universal Font */
+* {
+    font-family: "Montserrat", sans-serif;
+}
 
 /* Navbar styles */
 .navbar {
     background-color: black;
     color: #fff;
 }
+
 .navbar-brand {
     font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
 }
+
 .navbar a {
     color: #fff;
 }
@@ -24,15 +34,21 @@
 }
 
 /* Blog posts */
+.featured-posts {
+    padding: .5rem;
+}
 .blog-post-featured {
     background-color: hsl(56, 100%, 86%);
 }
+
 .blog-info {
     padding: .5em;
 }
+
 .blog-post-featured .blog-info h2 {
     font-weight: bold;
 }
+
 .blog-info p {
     font-size: 1.1rem;
     letter-spacing: 1px;
