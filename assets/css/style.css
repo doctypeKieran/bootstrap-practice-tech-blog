@@ -37,15 +37,15 @@
 .featured-posts {
     padding: .5rem;
 }
-.blog-post-featured {
-    background-color: hsl(56, 100%, 86%);
+.blog-post-main {
+    background-color: hsl(56, 100%, 94%);
 }
 
 .blog-info {
     padding: .5em;
 }
 
-.blog-post-featured .blog-info h2 {
+.blog-post-main .blog-info h2 {
     font-weight: bold;
 }
 
