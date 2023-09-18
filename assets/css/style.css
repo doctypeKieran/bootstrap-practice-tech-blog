@@ -5,6 +5,9 @@
     background-color: black;
     color: #fff;
 }
+.navbar-brand {
+    font-weight: bold;
+}
 .navbar a {
     color: #fff;
 }
@@ -18,4 +21,19 @@
 
 .dropdown-menu {
     background-color: black;
+}
+
+/* Blog posts */
+.blog-post-featured {
+    background-color: hsl(56, 100%, 86%);
+}
+.blog-info {
+    padding: .5em;
+}
+.blog-post-featured .blog-info h2 {
+    font-weight: bold;
+}
+.blog-info p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
 }
